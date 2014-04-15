@@ -22,16 +22,3 @@ To run a single test, use the name of the test:
 ```plain
 $ ruby test/$EXERCISE_test.rb --name $TEST_NAME
 ```
-
-### Optional: Acceptance Test
-
-A failing acceptance test is provided in `./features/$EXERCISE.feature`.
-This provides no guidance as to how you should name your classes and
-methods. Some people find this to be freeing, others find it
-intimidating.
-
-It can be run with the following command:
-
-```plain
-$ cucumber features/$EXERCISE.feature
-```
